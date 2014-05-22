@@ -1,0 +1,11 @@
+{
+  "name": "hk-web",
+  "version": "0.0.0",
+  "description": "a test app for the hk-buildpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "MIT"
+}
