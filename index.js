@@ -24,8 +24,8 @@ app.use(express.cookieSession({
     maxAge  : null
   }
 }))
-// app.use(bouncer.middleware)
-// app.use(bouncer.router)
+app.use(bouncer.middleware)
+app.use(bouncer.router)
 app.use(express.static(__dirname + "/public"))
 app.use(harp.mount(__dirname + "/public"))
 
