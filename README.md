@@ -1,4 +1,4 @@
-# hk-web [![Build Status](https://travis-ci.org/zeke/hk-web.png?branch=master)](https://travis-ci.org/zeke/hk-web)
+# hk-web
 
 A web-based version of Heroku&#39;s hk command line interface
 
