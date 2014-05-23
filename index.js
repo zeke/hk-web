@@ -2,7 +2,7 @@ require('dotenv').load()
 var express = require("express")
 var harp = require("harp")
 var app = express()
-// var hk = require("./hk")
+var hk = require("./hk")
 // var bouncer = require('heroku-bouncer')({
 //   herokuOAuthID      : process.env.HEROKU_OAUTH_ID,
 //   herokuOAuthSecret  : process.env.HEROKU_OAUTH_SECRET,
