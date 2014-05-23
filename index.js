@@ -34,7 +34,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/run', function(req, res) {
-  hk.init().run(req.query.args, function(err, data){
+  hk.init(req['heroku-bouncer'].token).run(req.query.args, function(err, data){
     if (err) return res.json(err)
     res.json(data)
   })
