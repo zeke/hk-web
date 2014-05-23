@@ -41,5 +41,5 @@ app.get('/run', function(req, res) {
 })
 
 app.listen(app.get("port"), function() {
-  console.log("Clone is running at localhost:" + app.get("port"))
+  console.log("hk is running at localhost:" + app.get("port"))
 })
