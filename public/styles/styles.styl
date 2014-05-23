@@ -1,0 +1,59 @@
+@import "_mixins.styl"
+@import "_fonts.styl"
+@import "_config"
+
+// Layout
+//---------------------------------------------------------
+
+*, *:before, *:after
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  box-sizing border-box
+
+html, body
+  width 100%
+  height 100%
+
+body
+  // font-family benton, "helvetica neue", helvetica, arial
+  font-family monaco,Consolas,"Liberation Mono",Courier,monospace
+  margin 0
+  padding 20px
+  color textColor
+  background backgroundColor
+
+form
+  float none
+  clear both
+  overflow hidden
+  h1, input
+    font-size 20px
+    font-weight normal
+    color white
+    margin 0
+    padding 5px
+    // line-height 1
+  h1
+    float left
+    color white
+    em
+      font-style normal
+      opacity 0.5
+      padding-right 7px
+  input
+    display block
+    float left
+    background none
+    width 800px
+    border none
+    // border-bottom 1px solid rgba(255, 255, 255, 0.2)
+    outline none
+    font-family monaco,Consolas,"Liberation Mono",Courier,monospace
+
+
+#output_wrapper
+  margin 10px 10px 10px 20px
+
+#output
+  color rgba(white, 0.5)
+  font-size 18px

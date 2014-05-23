@@ -4,6 +4,7 @@
   "description": "a test app for the hk-buildpack",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha"
   },
   "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
@@ -13,6 +14,11 @@
   },
   "dependencies": {
     "merge": "^1.1.3",
-    "dotenv": "^0.2.8"
+    "dotenv": "^0.2.8",
+    "express": "^3.5.1",
+    "heroku-bouncer": "^1.1.2",
+    "superagent": "^0.18.0",
+    "harp": "^0.12.1",
+    "jade": "^1.3.1"
   }
 }
