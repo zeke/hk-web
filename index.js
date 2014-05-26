@@ -24,6 +24,13 @@ app.use(express.cookieSession({
     maxAge  : null
   }
 }))
+
+app.use(express.csrf())
+app.use(function(req, res, next) {
+  res.locals.token = req.session.csrfSecret
+  next()
+})
+
 app.use(bouncer.middleware)
 app.use(bouncer.router)
 app.use(express.static(__dirname + "/public"))

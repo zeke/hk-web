@@ -7,6 +7,7 @@ block content
       em $
       | hk
     input(type="text" name="args" id="args" tabindex=1 autofocus)
+    input(type='hidden', name='_csrf', value=token)
 
   pre#output_wrapper
     code#output
